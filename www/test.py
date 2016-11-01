@@ -7,7 +7,6 @@ async def test(loop):
     u = User(name='Test', email='test@example.com', passwd='1234567890', image='about:blank')
 
     await u.save()
-    # await orm.destory_pool()
 
 
 loop = asyncio.get_event_loop()
